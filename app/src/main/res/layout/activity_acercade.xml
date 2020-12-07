@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/fondo_dertalle"
     android:id="@+id/Acercade"
-    tools:context=".Menu.Acercade">
+    tools:context=".VIsta.Menu.Acercade">
 
     <include android:id="@+id/actionbar"
         layout="@layout/actionbar"

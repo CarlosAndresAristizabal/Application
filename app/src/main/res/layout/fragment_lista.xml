@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:id="@+id/ListaFragment"
     android:background="@drawable/fondo2"
-    tools:context=".Fragment.ListaFragment">
+    tools:context=".VIsta.Fragment.ListaFragment">
 
 
     <androidx.recyclerview.widget.RecyclerView
@@ -14,6 +14,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/rvMascotasFragment"
         android:layout_gravity="center"
+        tools:itemCount="10"
         />
 
 </FrameLayout>

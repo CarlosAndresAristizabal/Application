@@ -28,4 +28,6 @@
     <string name="contraseña">Contraseña</string>
     <string name="todo" />
     <string name="selecciona_mascota_de_la_lista">Selecciona mascota de la lista</string>
+    <string name="info">Ingresa el correo para que verifiques el envió del mensaje. Revisa la bandeja de entrada.</string>
+
 </resources>

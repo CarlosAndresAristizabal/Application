@@ -11,36 +11,36 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MascotasApplication">
-        <activity android:name=".Detalle_Mascota"
-            android:parentActivityName=".MainActivity" /> <!-- Soporte para versiones 4.0 o menos -->
+        <activity android:name=".VIsta.Principales.Detalle_Mascota"
+            android:parentActivityName=".VIsta.Principales.InicioPrincipalMascotas" /> <!-- Soporte para versiones 4.0 o menos -->
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity" />
+            android:value=".VIsta.Principales.InicioPrincipalMascotas" />
         <activity
-            android:name=".Menu.Acercade"
-            android:parentActivityName=".MainActivity" /> <!-- Soporte para versiones 4.0 o menos -->
+            android:name=".VIsta.Menu.Acercade"
+            android:parentActivityName=".VIsta.Principales.InicioPrincipalMascotas" /> <!-- Soporte para versiones 4.0 o menos -->
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity" />
+            android:value=".VIsta.Principales.InicioPrincipalMascotas" />
 
         <activity
-            android:name=".Menu.Contacto"
-            android:parentActivityName=".MainActivity" /> <!-- Soporte para versiones 4.0 o menos -->
+            android:name=".VIsta.Menu.Contacto"
+            android:parentActivityName=".VIsta.Principales.InicioPrincipalMascotas" /> <!-- Soporte para versiones 4.0 o menos -->
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity" /> <!-- Soporte para versiones 4.0 o menos -->
+            android:value=".VIsta.Principales.InicioPrincipalMascotas" /> <!-- Soporte para versiones 4.0 o menos -->
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity" />
+            android:value=".VIsta.Principales.InicioPrincipalMascotas" />
 
         <activity
-            android:name=".Menu.Favorito"
-            android:parentActivityName=".MainActivity" /> <!-- Soporte para versiones 4.0 o menos -->
+            android:name=".VIsta.Menu.Favorito"
+            android:parentActivityName=".VIsta.Principales.InicioPrincipalMascotas" /> <!-- Soporte para versiones 4.0 o menos -->
         <meta-data
             android:name="android.support.PARENT_ACTIVITY"
-            android:value=".MainActivity" />
+            android:value=".VIsta.Principales.InicioPrincipalMascotas" />
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".VIsta.Principales.InicioPrincipalMascotas">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

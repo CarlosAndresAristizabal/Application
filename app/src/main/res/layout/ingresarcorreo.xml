@@ -2,16 +2,17 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="50dp"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+   >
 
     <TextView
         android:id="@+id/mensaje"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textStyle="italic"
-        android:text="Ingresa el correo para que verifiques el envió del mensaje. Revisa la bandeja de entrada. "
+        android:text="@string/info"
 
         />
 

@@ -9,7 +9,7 @@
         android:background="@color/teal_700"
         android:elevation="@dimen/elevation"
         android:orientation="vertical"
-        tools:context=".MainActivity"
+        tools:context=".VIsta.Principales.InicioPrincipalMascotas"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
         app:popupTheme="@style/ThemeOverlay.AppCompat.DayNight"
     tools:targetApi="lollipop" />
